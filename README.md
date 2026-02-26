@@ -59,3 +59,9 @@ This is required for reliable scanner detection.
   - `data/characters.json`
   - `.web/`, `.states/`, `logs/`, build artifacts
 - Keep `data/archimonstres_par_zone.json` and `data/archimonsterImg.png` in repo if you want the app to run out of the box.
+
+## Disclaimer
+
+- This project is an independent, unofficial tool and is not affiliated with Ankama or Metamob.
+- You are responsible for how you use automation/scanning features and for complying with game/platform rules.
+- Use at your own risk. The maintainers are not responsible for account, data, or service issues.
