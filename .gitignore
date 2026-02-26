@@ -18,3 +18,4 @@ logs/
 data/metamob.config.json
 data/results.json
 data/characters.json
+scripts/results.json
