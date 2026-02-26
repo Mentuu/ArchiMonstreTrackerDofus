@@ -141,14 +141,7 @@ def scanner_tab() -> rx.Component:
             rx.text("1. Click start to launch the scanner process.", color=MUTED, font_size="0.88rem"),
             rx.text("2. Keep Dofus visible, hover the search bar, then press F8 once.", color=MUTED, font_size="0.88rem"),
             rx.text("3. Scanner cycles names and saves directly into the selected character profile.", color=MUTED, font_size="0.88rem"),
-            rx.text("4. Press F10 to pause or resume the scan loop.", color=MUTED, font_size="0.88rem"),
-            rx.text("Safety stop: move mouse to top-left corner (PyAutoGUI failsafe).", color="#fda4af", font_size="0.88rem"),
-            rx.text(
-                "Logs: archiTracker/logs/scan.out.log and scan.err.log",
-                color="#c4b5fd",
-                font_size="0.84rem",
-                font_family="'Fira Code', monospace",
-            ),
+            rx.text("4. Press F10 to pause or resume the scan loop.", color=MUTED, font_size="0.88rem")
         ),
         width="100%",
         spacing="4",

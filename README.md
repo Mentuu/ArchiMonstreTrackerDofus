@@ -4,9 +4,8 @@ Reflex app for Archimonster tracking, scanning, trading, and Metamob sync.
 
 ## Stack
 
-- Python 3.10+
+- Python 3.12.5+
 - Reflex
-- UI automation scanner (`scripts/scan.py`)
 
 ## Project Layout
 
@@ -22,12 +21,27 @@ Reflex app for Archimonster tracking, scanning, trading, and Metamob sync.
 ## Local Run
 
 ```bash
-python -m venv .venv
-# Windows PowerShell
-# .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 reflex run
 ```
+
+## Metamob API Key
+
+Put your key in `data/metamob.config.json`:
+
+```json
+{
+  "apiKey": "YOUR_METAMOB_API_KEY"
+}
+```
+
+## features Overview
+
+- `Characters`: create/manage characters and assign server/name used by the app.
+- `Scanner`: launch/stop the scan script and scan archimonsters into the selected character profile.
+- `Tracker`: browse and update collected/missing archimonsters with filters and step validation.
+- `Trades`: compare with another player, select give/receive picks, and build a trade message.
+- `Metamob`: generate/sync payloads and manage quest settings through the Metamob API.
 
 ## Notes For Public Repo
 
@@ -37,15 +51,3 @@ reflex run
   - `data/characters.json`
   - `.web/`, `.states/`, `logs/`, build artifacts
 - Keep `data/archimonstres_par_zone.json` and `data/archimonsterImg.png` in repo if you want the app to run out of the box.
-
-## Publish This Folder Only
-
-From inside `archiTracker/`:
-
-```bash
-git init -b main
-git add .
-git commit -m "Initial public release"
-git remote add origin <your-public-repo-url>
-git push -u origin main
-```
