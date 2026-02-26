@@ -35,6 +35,14 @@ Put your key in `data/metamob.config.json`:
 }
 ```
 
+## Dofus Setting Required (Scanner)
+
+Set this in Dofus:
+
+- `Accessibilité -> Interface -> Échelle de l’interface: 100%`
+
+This is required for reliable scanner detection.
+
 ## features Overview
 
 - `Characters`: create/manage characters and assign server/name used by the app.
