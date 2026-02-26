@@ -1,0 +1,20 @@
+.web/
+.states/
+assets/external/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+
+# Build artifacts
+backend.zip
+frontend.zip
+reflex.db
+
+# Local runtime outputs
+logs/
+
+# Local/private data
+data/metamob.config.json
+data/results.json
+data/characters.json
